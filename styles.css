@@ -33,3 +33,10 @@ footer {
 #firstpara {
 	font-family: "Comic Sans MS";
 }
+
+@media screen and (max-width: 500px) {
+  .images {
+    height: 150px;
+    width: 200px;
+  }
+}

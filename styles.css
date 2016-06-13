@@ -1,3 +1,26 @@
 body {
-	background: blue;
+	background: hotpink;
+}
+
+footer {
+	position: absolute;
+	width: 40%;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+#ferrel {
+	padding: 2%;
+	border: 1px black ridge;
+}
+
+#plane {
+	margin: 2%;
+	border: 1px white ridge;
+}
+
+.links:visited {
+	color: green;
 }

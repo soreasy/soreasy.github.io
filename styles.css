@@ -24,3 +24,12 @@ footer {
 .links:visited {
 	color: green;
 }
+
+#form {
+	background-image: url("tennis-ball.jpg");
+	background-size: 20%;
+}
+
+#firstpara {
+	font-family: "Comic Sans MS";
+}

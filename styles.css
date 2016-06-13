@@ -1,9 +1,10 @@
 body {
 	background: hotpink;
+	margin: 0;
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	width: 40%;
 	left: 30%;
 	right: 30%;
@@ -32,6 +33,72 @@ footer {
 
 #firstpara {
 	font-family: "Comic Sans MS";
+	position: relative;
+	width: 40%;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+
+}
+
+#secondpara {
+	position: relative;
+	width: 40%;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+
+}
+
+#diffbg {
+	background-color: #1FD7F3;
+	position: static;
+	border-width: thin;
+	padding: 0;
+	margin: 0;
+}
+
+#diffbg>div {
+	position: relative;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+}
+
+#diffbg p {
+	position: relative;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+	text-align: center;
+}
+
+#diffbg blockquote {
+	position: relative;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+	text-align: center;
+}
+
+#diffbg ul {
+	position: relative;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+}
+
+#diffbg h4 {
+	position: relative;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+}
+
+#diffbg table {
+	position: relative;
+	left: 30%;
+	right: 30%;
 }
 
 @media screen and (max-width: 500px) {
@@ -40,3 +107,4 @@ footer {
     width: 200px;
   }
 }
+

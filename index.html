@@ -7,109 +7,110 @@
 </head>
 <body>
 	<h1>Come one, come all and hear ye, hear ye of the <em>awesomeness</em> of tennis!</h1>
-	<div>
-		<p id="firstpara">Welcome to Soren's website about the awesomeness of tennis.</p>
-	</div>
+
+	<p id="firstpara">Welcome to Soren's website about the awesomeness of tennis.</p>
 
 	<img src="ferrel.jpg" alt="funny big racket pic" height="300" width="400" id="ferrel" class="images">
 	<img src="dopeT.jpg" alt="old school tennis on a plane" height="300" width="400" id="plane" class="images">
 
-	<div>
-		<p>First, I recommend you begin by checking out the table below which, based on your very personally personalized traits, will determine whether or not you should give tennis a shot!</p>
-	</div>
-	<div>
+	<p id="secondpara">First, I recommend you begin by checking out the table below which, based on your very personally personalized traits, will determine whether or not you should give tennis a shot!</p>
+
+	<section id="diffbg">
+		<div>
+			<br>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>Likes cats</th>
+					<th>Doesn't like cats</th>
+				</tr>
+				<tr>
+					<th>Likes food</th>
+					<td>try it</td>
+					<td>def try it</td>
+				</tr>
+				<tr>
+					<th>Doesn't like food</th>
+					<td>it's perfect for ya</td>
+					<td>give'er a go</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<p>Still not convinced? Check out this quote!</p>
+		<blockquote>"Tennis is super awesome and it's good for you and you should try it" -Soren</blockquote>
+		
+
+		<p>So.. what's good? Like, what's <b>really</b> good? <em><b>Forms!</b></em> So like fill this one out maybs?</p>
+
+		<form action="emailListSoon.html" id="form">
+		<fieldset>
+			<legend>Awesome Form</legend>
+			<div>
+				<label>Ready to give tennis a try?</label>
+				<select name="readiness">
+					<option value="yes">Absolutely</option>
+					<option value="yes">Mos Def</option>
+					<option value="yes">Fasho</option>
+				</select>
+			</div>
+
+			<br>
+
+			<div>
+				<label>Email address:</label>
+				<input type="text" name="emailaddress" placeholder="Email address here">
+			</div>
+
+			<br>
+
+			<div>
+	      		<label>Favorite tennis player:</label>
+	      		<input type="text" name="FAV-player" placeholder="player name">
+	    	</div>
+
+	    	<br>
+
+	    	<div>
+	    		<label>So just to be clear... How much do you love tennis now?</label>
+	    		<br>
+	    		<input type="radio" name="tennis-likeness" value="alot">SO @#!?* MUCH
+	    		<br>
+	    		<input type="radio" name="tennis-likeness" value="the-most">the literal most
+	    		<br>
+	    		<input type="radio" name="tennis-likeness" value="too-much">unhealthy amounts 
+	    	</div>
+
+	    	<br>
+
+	    	<button type="submit">Press the button! It's worth it</button>
+
+		</fieldset>
+		</form>	
+
+		<br>
+
+		<h4>Some useful tennis links:</h4>
 		<table border="1">
 			<tr>
-				<th></th>
-				<th>Likes cats</th>
-				<th>Doesn't like cats</th>
-			</tr>
-			<tr>
-				<th>Likes food</th>
-				<td>try it</td>
-				<td>def try it</td>
-			</tr>
-			<tr>
-				<th>Doesn't like food</th>
-				<td>it's perfect for ya</td>
-				<td>give'er a go</td>
+				<td><a href="http://www.itatennis.com/" class="links">College Tennis</a></td>
+				<td><a href="https://www.usta.com/" class="links">United States Tennis Association</a></td>
+				<td><a href="http://www.atpworldtour.com/" class="links">Men's Pro Tennis</a></td>
+				<td><a href="http://www.wtatennis.com/" class="links">Women's Pro Tennis</a></td>
 			</tr>
 		</table>
-	</div>
-	<br>
-	<p>Still not convinced? Check out this quote!</p>
-	<blockquote>"Tennis is super awesome and it's good for you and you should try it" -Soren</blockquote>
-	
-
-	<p>So.. what's good? Like, what's <b>really</b> good? <em><b>Forms!</b></em> So like fill this one out maybs?</p>
-
-	<form action="emailListSoon.html" id="form">
-	<fieldset>
-		<legend>Awesome Form</legend>
-		<div>
-			<label>Ready to give tennis a try?</label>
-			<select name="readiness">
-				<option value="yes">Absolutely</option>
-				<option value="yes">Mos Def</option>
-				<option value="yes">Fasho</option>
-			</select>
-		</div>
 
 		<br>
+		<p>You'd be crazy to need more, but here are more reasons tennis is awesome:</p>
+		<ul>
+			<li>You get to run!</li>
+			<li>You get to hit the ball!</li>
+			<li>You get to jump!</li>
+			<li>It's super duper fun!</li>
+		</ul>
 
-		<div>
-			<label>Email address:</label>
-			<input type="text" name="emailaddress" placeholder="Email address here">
-		</div>
-
-		<br>
-
-		<div>
-      		<label>Favorite tennis player:</label>
-      		<input type="text" name="FAV-player" placeholder="player name">
-    	</div>
-
-    	<br>
-
-    	<div>
-    		<label>So just to be clear... How much do you love tennis now?</label>
-    		<br>
-    		<input type="radio" name="tennis-likeness" value="alot">SO @#!?* MUCH
-    		<br>
-    		<input type="radio" name="tennis-likeness" value="the-most">the literal most
-    		<br>
-    		<input type="radio" name="tennis-likeness" value="too-much">unhealthy amounts 
-    	</div>
-
-    	<br>
-
-    	<button type="submit">Press the button! It's worth it</button>
-
-	</fieldset>
-	</form>	
-
-	<br>
-
-	<h4>Some useful tennis links:</h4>
-	<table border="1">
-		<tr>
-			<td><a href="http://www.itatennis.com/" class="links">College Tennis</a></td>
-			<td><a href="https://www.usta.com/" class="links">United States Tennis Association</a></td>
-			<td><a href="http://www.atpworldtour.com/" class="links">Men's Pro Tennis</a></td>
-			<td><a href="http://www.wtatennis.com/" class="links">Women's Pro Tennis</a></td>
-		</tr>
-	</table>
-
-	<br>
-	<p>You'd be crazy to need more, but here are more reasons tennis is awesome:</p>
-	<ul>
-		<li>You get to run!</li>
-		<li>You get to hit the ball!</li>
-		<li>You get to jump!</li>
-		<li>It's super duper fun!</li>
-	</ul>
-
-	<footer>If ya like, learn more about the <a href="aboutme.html" class="links">author</a>.</footer>
+		<footer>If ya like, learn more about the <a href="aboutme.html" class="links">author</a>.</footer>
+	</section>
 
 </body>
 </html>
